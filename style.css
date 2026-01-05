@@ -1,0 +1,30 @@
+body{
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transition:0.3s;
+}
+
+body.light{
+  background:#f8fafc;
+  color:#111;
+}
+
+body.dark{
+  background:#020617;
+  color:white;
+}
+
+.box{
+  background:inherit;
+  padding:30px;
+  border-radius:8px;
+  text-align:center;
+}
+
+button{
+  padding:10px 16px;
+  cursor:pointer;
+}
